@@ -4,27 +4,27 @@
   color: #333;
   font-family: Lato, sans-serif;
 }
-.aaa {
+.header {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
-.aaa .image {
+.header__image {
   width: 100%;
 }
-.aaa .more_inf {
+.header__link {
   font-family: fantasy, cursive;
 }
 
 @media (max-width:768px) {
   
-  .aaa {
+  .header {
     text-align: center;
   }
 
 }
-.centered-main-page-element {
+.main {
   display: block;
   width: 500px;
   margin: 0 auto 0;
@@ -34,7 +34,7 @@
   display: inline-block;
   flex-grow: 1;
 }
-.task-row-wrapper {
+.add-section__row {
   display: flex;
 }
 ul {
@@ -123,12 +123,12 @@ button {
 .list__item > .input-field {
   width: 226px;
 }
-.button.delete .image {
+.button_delete .image {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
-.button.delete .image:hover {
+.button_delete .image:hover {
   transform: rotateZ(0);
 }
 
